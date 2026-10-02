@@ -1,0 +1,5 @@
+---
+  tasks:
+    - name: Sleep for 35 minutes
+      sleep: 
+        seconds: 2100

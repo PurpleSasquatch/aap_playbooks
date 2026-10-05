@@ -1,6 +1,6 @@
 ---
 - name: sleep for 35 minutes
-  hosts: local
+  hosts: localhost
   remote_user: root
 
   tasks:

@@ -6,4 +6,4 @@
   tasks:
     - name: sleep
       ansible.builtin.pause:
-      minutes: 35
+        minutes: 35

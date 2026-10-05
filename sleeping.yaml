@@ -1,0 +1,8 @@
+---
+- name: sleep for 35 minutes
+  hosts: webservers
+  remote_user: root
+
+  tasks:
+  - name: ansible.builtin.pause:
+    minutes: 35

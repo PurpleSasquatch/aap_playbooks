@@ -4,5 +4,5 @@
   remote_user: root
 
   tasks:
-  ansible.builtin.pause:
+    ansible.builtin.pause:
     minutes: 35
